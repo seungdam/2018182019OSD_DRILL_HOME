@@ -23,7 +23,7 @@ class Bird:
     def __init__(self):
         self.x, self.y = 1600 // 2, 300
         self.image = load_image('bird_animation.png')
-        #self.image = load_image('bird_animation.png')
+        #self.image = load_image('bird_animation22.png')
         self.font = load_font('ENCR10B.TTF', 16)
         self.dir = 1
         self.velocity = RUN_SPEED_PPS
