@@ -3,7 +3,7 @@ from pico2d import *
 
 import game_world
                              # 실제 새의 가로길이 143 pixel
-PIXEL_PER_METER = (10.0 / 0.4)  # 1 pixel 당  4cm 새의 가로 길이 147 * 4 = 588cm 새의 세로높이 142 * 4 = 568
+PIXEL_PER_METER = (10.0 / 0.4)  # 10 pixel 당  40cm 새의 가로 길이 147 * 4 = 588cm 새의 세로높이 142 * 4 = 568
 RUN_SPEED_KMPH = 30.0  # KM / Hour
 RUN_SPEED_MPM = (RUN_SPEED_KMPH * 1000 / 60.0)
 RUN_SPEED_MPS = (RUN_SPEED_MPM / 60.0)
